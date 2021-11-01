@@ -1,5 +1,26 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+body {
+  width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 450px;
+  height: 70vh;
+  border: 1px black solid;
+}
+#imgBox {
+  width: 100%;
+  height: 220px;
+}
+#contentBox {
+  width: 100%;
 }
