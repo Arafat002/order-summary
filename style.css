@@ -6,19 +6,19 @@
   overflow: hidden;
 }
 body {
-  width: 1440px;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(225, 100%, 94%);
 }
 
 main {
   width: 450px;
   height: 70vh;
-  border: 1px black solid;
   border-radius: 20px;
+  border: 1px solid hsl(224, 23%, 55%);
+  box-shadow: 3px 3px 3px hsl(224, 23%, 55%);
 }
 #imgBox {
   width: 100%;
@@ -37,4 +37,89 @@ main {
 }
 .contents {
   margin: 5px;
+}
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.detailBox {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.detail {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin: 3px 0px 3px 0px;
+}
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+.midContainer {
+  display: flex;
+}
+.planBox {
+  display: flex;
+  flex-direction: column;
+}
+.musicImg {
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+  border: 1px hsl(225, 100%, 94%) solid;
+  border-radius: 50% 50%;
+  background-image: url("images/icon-music.svg");
+}
+.planTop {
+  font-size: 20px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.planBottom {
+  margin-top: 3px;
+  color: hsl(224, 23%, 55%);
+}
+.change {
+  text-decoration: underline;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+.change:hover {
+  cursor: pointer;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnTop {
+  width: 80%;
+  height: 50px;
+  line-height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 15px;
+  color: hsl(225, 100%, 94%);
+  box-shadow: 3px 3px 3px hsl(245, 75%, 52%);
+}
+.btnBottom {
+  font-weight: 700;
+  cursor: pointer;
+  color: hsl(224, 23%, 55%);
 }
