@@ -1,3 +1,5 @@
 # Frontend Mentor - Order summary card
 
-![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
+![My Result](./images/done.png)
+
+[My Result](https://mseob.github.io/order-summary/)
